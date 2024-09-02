@@ -1,0 +1,21 @@
+/* Apply flexbox to the body to ensure full height layout */
+body, .site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Ensure the main content takes up all available space */
+.main {
+    flex: 1;
+}
+
+/* Footer styles */
+.footer__container {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}

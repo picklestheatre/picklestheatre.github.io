@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Cycling</title>
+    <style>
+        .cycling-word {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <p>The quick brown <span class="cycling-word" id="cycling-word">fox</span> jumps over the lazy dog.</p>
+
+    <script>
+        const words = ["fox", "cat", "dog", "mouse", "rabbit", "squirrel", "bird", "horse"];
+        let currentIndex = 0;
+
+        function cycleWord() {
+            const wordElement = document.getElementById("cycling-word");
+            currentIndex = (currentIndex + 1) % words.length;
+            wordElement.textContent = words[currentIndex];
+        }
+
+        setInterval(cycleWord, 1000);
+    </script>
+</body>
+</html>

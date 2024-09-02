@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pickles Theatre Co :)</title>
+    <link rel="stylesheet" href="Maintest.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="site-container">
+      <!-- Hero Section -->
+      <div class="main">
+        <!-- Navbar Section -->
+        <nav class="navbar">
+          <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+              <i class="fas fa-gem"><img src="/images/PTC Logo.svg"></i><!--PICKLES THEATRE COMPANY-->
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+              <li class="navbar__item">
+                <a href="/about.html" class="navbar__links">About</a>
+              </li>
+              <li class="navbar__item navbar__item--dropdown">
+                <a href="#" class="navbar__links">Past Productions</a>
+                <ul class="dropdown-menu">
+                  <li><a href="/UVGP.html">UVGP </a></li>
+                  <li><a href="/VELVETHEAD.html">VELVETHEAD</a></li>
+                  <li><a href="/BALANCE.html">BALANCE</a></li>
+                  <!-- Add more items as needed -->
+                </ul>
+              </li>
+              <li class="navbar__item">
+                <a href="/" class="navbar__links">Research</a>
+              </li>
+              <li class="navbar__btn">
+                <a href="/" class="button">Donate</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="main__container">
+          <div class="main__content">
+            <h1>Pickles Theatre</h1>
+            <h2>Company</h2>
+            <p>inventive. joyful. queer.</p>
+            <button class="main__btn"><a href="#">Get Started</a></button>
+          </div>
+          <!-- HERO IMAGE <div class="main__img--container">
+            <img id="main__img" src="/images/HERO_VHEAD.JPG" />
+          </div>-->
+        </div>
+
+        <div class="prod0">
+          <img src="/images/pic2.jpg" alt="arcade image" />
+          <div class="text">
+            <h1>Arcade</h1>
+            <p>
+              The Untitled Video Game Project was an experiment trying to create
+              a play where theatre and videogames become inseperable using a
+              number of video game mechanics and branching storylines and improv.
+              A chosen audience CEASELESS control of the show through reactive
+              design, so the actors must journey and adapt to every choice the
+              player makes, every win, and every loss. There is no turning back*,
+              there is no taking away control once given, just like any other
+              play, the game must go on.
+            </p>
+            <button class="main__btn"><a href="#">Learn More</a></button>
+          </div>
+        </div>
+
+        <div class="prod1">
+          <img src="images/pic2.jpg" alt="first archival image" />
+          <div class="text">
+            <h1>UVGP</h1>
+            <p>
+              The Untitled Video Game Project was an experiment trying to create
+              a play where theatre and videogames become inseperable using a
+              number of video game mechanics and branching storylines and improv.
+              A chosen audience CEASELESS control of the show through reactive
+              design, so the actors must journey and adapt to every choice the
+              player makes, every win, and every loss. There is no turning back*,
+              there is no taking away control once given, just like any other
+              play, the game must go on.
+            </p>
+            <button class="main__btn" onclick="window.location.href='/UVGP.html';"><a>Learn More</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Section -->
+      <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper"></div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo"><i class="fas fa-gem"></i>Pickles</a>
+            </div>
+            <p class="website__rights">© Pickles Theatre Company 2024. All rights reserved</p>
+            <div class="social__icons">
+              <a class="social__icon--link" href="/" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a class="social__icon--link" href="/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
