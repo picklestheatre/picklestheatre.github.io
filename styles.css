@@ -779,8 +779,8 @@ html{
 
 .bio0 img, .bio1 img {
   /* max-width: 30%; */
-  height: 450;
-  width: 30%;
+  height: 450px;
+  width: auto%;
   transition: all 0.3s ease; /* Adjust the duration and easing as needed */
   object-fit: contain;
 }
@@ -1285,7 +1285,6 @@ Mobile Responsive
   position: relative;
 }
 
-
   @media screen and (max-width: 768px){
     #ARCH_IMG {
       padding: 3px;
@@ -1300,7 +1299,16 @@ Mobile Responsive
       min-width: 100%;
       height: auto;
     }
-  }
+    .Headshot{
+      padding: 3px;
+      border: none;
+      max-width: 95%;
+      height: auto;
+      width: 60vh;
+      border: none;
+    }
+    }
+  
 
   @media screen and (max-width: 480px){
     #ARCH_IMG {
